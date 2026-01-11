@@ -20,7 +20,7 @@ export const projects: Project[] = [
     ],
     tech: ['React', 'TypeScript', 'Python', 'FastAPI'],
     link: '#',
-    repo: '#',
+    repo: 'https://github.com/AyushBhadouria/stock-visualization-And-Focasting',
     hasLiveDemo: false
   },
   {
@@ -58,8 +58,8 @@ export const projects: Project[] = [
       'Smooth animations using Framer Motion'
     ],
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    link: '#',
-    repo: '#',
+    link: 'https://ayushsingh.onrender.com/#',
+    repo: 'https://github.com/AyushBhadouria/personal-portfolio',
     hasLiveDemo: true
   },
   {
@@ -77,7 +77,7 @@ export const projects: Project[] = [
   },
   {
     id: 'p6',
-    title: 'Hotstar Clone',
+    title: 'StreamLive (Hotstar Clone)',
     description: 'A frontend clone of the Hotstar streaming platform featuring a responsive layout, movie listings, and interactive UI components.',
     bulletPoints: [
       'Responsive streaming platform interface',
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     ],
     tech: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
-    repo: '#',
+    repo: 'https://github.com/AyushBhadouria/StreamLive',
     hasLiveDemo: false
   }
 ];

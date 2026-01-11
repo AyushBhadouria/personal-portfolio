@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
             </a>
             
             <a
-              href="https://github.com/ayushbhadouria"
+              href="https://github.com/AyushBhadouria"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 border border-gray-600 text-gray-300 rounded-md hover:border-gray-500 transition-colors"
