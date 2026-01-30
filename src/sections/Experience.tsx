@@ -6,7 +6,7 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       type: 'work',
-      title: 'Developer',
+      title: 'Software Developer',
       company: 'Garzitti Interactive',
       location: 'Panchkula',
       period: 'June 2025 – Present',

@@ -15,7 +15,7 @@ const About: React.FC = () => {
         >
           <div className="border-l-4 border-primary pl-6">
             <p className="text-gray-300 leading-relaxed mb-4">
-              Hi! I'm a passionate web developer who enjoys building user-friendly, responsive, and accessible websites.
+              Hi! I'm a passionate Full Stack developer who enjoys building user-friendly, responsive, and accessible websites.
               I specialize in creating clean and maintainable front-end interfaces using HTML, CSS, JavaScript, and modern frameworks like React.
             </p>
             
