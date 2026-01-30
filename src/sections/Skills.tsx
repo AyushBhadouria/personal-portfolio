@@ -4,7 +4,7 @@ import { skills } from '../data/skills'
 import SkillCard from '../components/SkillCard'
 
 const Skills: React.FC = () => {
-  const skillCategories = ['Frontend', 'Backend', 'Database', 'Tools'] as const
+  const skillCategories = ['Frontend', 'Backend', 'Database', 'Tools', 'Testing & Automation'] as const
   
   const getSkillsByCategory = (category: string) => {
     return skills.filter(skill => skill.category === category)

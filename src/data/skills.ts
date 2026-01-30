@@ -2,8 +2,8 @@ export type Skill = {
   id: string
   name: string
   level: string
-  category: 'Frontend' | 'Backend' | 'Database' | 'Tools'
-  proficiency: number // 1-5 dots
+  category: 'Frontend' | 'Backend' | 'Database' | 'Tools' | 'Testing & Automation'
+  proficiency: number 
 }
 
 export const skills: Skill[] = [
@@ -21,9 +21,12 @@ export const skills: Skill[] = [
   { id: 'fastapi', name: 'FastAPI', level: 'Intermediate', category: 'Backend', proficiency: 3 },
 
   // Database
-  { id: 'mongodb', name: 'MongoDB', level: 'Beginner', category: 'Database', proficiency: 2 },
+  { id: 'mongodb', name: 'MongoDB', level: 'Intermediate', category: 'Database', proficiency: 4 },
   { id: 'sql', name: 'MySQL', level: 'Intermediate', category: 'Database', proficiency: 3 },
 
   // Tools
-  { id: 'git', name: 'Git & GitHub', level: 'Intermediate', category: 'Tools', proficiency: 4 }
+  { id: 'git', name: 'Git & GitHub', level: 'Intermediate', category: 'Tools', proficiency: 4 },
+
+  // Testing & Automation
+  { id: 'playwright', name: 'Playwright', level: 'Intermediate', category: 'Testing & Automation', proficiency: 3 }
 ];
