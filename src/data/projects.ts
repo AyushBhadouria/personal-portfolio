@@ -63,12 +63,14 @@ export const projects: Project[] = [
   {
     id: 'p4',
     title: 'Personal Portfolio Website',
-    description: 'A modern and fully responsive personal portfolio website showcasing projects, skills, and contact information with smooth UI interactions.',
+    description: 'A modern, fully responsive portfolio website built with React and TypeScript. Features smooth animations, dark theme UI, project showcase with image galleries, skills section, and integrated contact area with seamless user experience.',
     bulletPoints: [
-      'Responsive design with Tailwind CSS',
-      'Smooth animations using Framer Motion'
+      'Responsive design with Tailwind CSS and mobile-first approach',
+      'Smooth animations and transitions using Framer Motion',
+      'Interactive image galleries for project showcases',
+      'SEO optimized with semantic HTML'
     ],
-    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion'],
     link: 'https://ayushsingh.onrender.com/#',
     repo: 'https://github.com/AyushBhadouria/personal-portfolio',
     hasLiveDemo: true
