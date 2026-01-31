@@ -7,6 +7,7 @@ export type Project = {
   link?: string
   repo?: string
   hasLiveDemo: boolean
+  images?: string[]
 }
 
 export const projects: Project[] = [
@@ -21,7 +22,17 @@ export const projects: Project[] = [
     tech: ['React', 'TypeScript', 'Python', 'FastAPI'],
     link: '#',
     repo: 'https://github.com/AyushBhadouria/stock-visualization-And-Focasting',
-    hasLiveDemo: false
+    hasLiveDemo: false,
+    images: [
+      '/images/stock-project/Login.png',
+      '/images/stock-project/Register.png',
+      '/images/stock-project/MainDashboard.png',
+      '/images/stock-project/FullDashboard.png',
+      '/images/stock-project/PortfolioPage.png',
+      '/images/stock-project/ScreenerPage.png',
+      '/images/stock-project/PaperTradingPage.png',
+      '/images/stock-project/BacktestPage.png'
+    ]
   },
   {
     id: 'p2',
