@@ -73,7 +73,10 @@ export const projects: Project[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion'],
     link: 'https://ayushsingh.onrender.com/#',
     repo: 'https://github.com/AyushBhadouria/personal-portfolio',
-    hasLiveDemo: true
+    hasLiveDemo: true,
+    images: [
+      '/images/portfolio-project/Portfolio.png'
+    ]
   },
   {
     id: 'p5',

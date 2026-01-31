@@ -46,10 +46,16 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, projectTitle, isOpe
           >
             {/* Header */}
             <div className="flex justify-between items-center p-4 border-b border-gray-700">
-              <h2 className="text-xl font-semibold text-gray-100">{projectTitle} - Gallery</h2>
               <button
                 onClick={onClose}
-                className="text-gray-400 hover:text-gray-100 transition-colors text-2xl"
+                className="text-gray-300 hover:text-white transition-colors text-lg font-medium flex items-center gap-2 cursor-pointer"
+              >
+                ← Back
+              </button>
+              <h2 className="text-xl font-semibold text-gray-100">{projectTitle}</h2>
+              <button
+                onClick={onClose}
+                className="text-gray-400 hover:text-gray-100 transition-colors text-2xl cursor-pointer"
               >
                 ✕
               </button>
